@@ -25,6 +25,7 @@
 }
 
 #wrapper2 {
+    height: 100%;
     display: flex;
     justify-content: row;
 }
@@ -36,7 +37,7 @@
 }
 
 #social {
-    width: 10%;
+    width: 30%;
     height: 65%;
     background-color: red;
 }
