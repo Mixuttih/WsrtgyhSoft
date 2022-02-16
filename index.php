@@ -1,31 +1,5 @@
 <!doctype html>
 
-<?php
-$mypage = $_GET['mypage'];
-switch($mypage)
-{
-case "about":
-    @include("about.php");
-    break;
-
-case "past":
-    @include("past.php");
-    break;
-
-case "current":
-    @include("current.php");
-    break;
-
-case "contact":
-    @include("contact.php");
-    break;
-
-default:
-    @include("home.php");
-}
-?>
-
-
 <html lang="en">
 
 <head>
@@ -61,7 +35,30 @@ default:
 
             <div id="wrapper2">
                 <div id="content">
-                    Tähän tulee sisältöä
+                <?php
+$mypage = $_GET['mypage'];
+switch($mypage)
+{
+case "about":
+    @include("about.php");
+    break;
+
+case "past":
+    @include("past.php");
+    break;
+
+case "current":
+    @include("current.php");
+    break;
+
+case "contact":
+    @include("contact.php");
+    break;
+
+default:
+    @include("home.php");
+}
+?>
                 </div>
 
                 <div id="social">
