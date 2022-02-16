@@ -39,12 +39,13 @@ h1 {
     width: 70%;
     height: 100%;
     margin-left: 5px;
+    overflow: auto;
 }
 
 #social {
     width: 30%;
     height: 100%;
-    margin-left: 5px;
+    margin-left: 10px;
     border-style: none none none solid;
 }
 
