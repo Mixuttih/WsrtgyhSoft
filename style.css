@@ -52,8 +52,5 @@
     background-color: purple;
     display: flex;
     justify-content: center;
-    border-style: solid;
-    border-bottom-width: 0px;
-    border-left-width: 0px;
-    border-right-width: 0px;
+    border-style: solid none none none;
 }
