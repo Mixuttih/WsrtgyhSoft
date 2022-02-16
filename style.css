@@ -24,6 +24,11 @@
     background-color: green;
 }
 
+#wrapper2 {
+    display: flex;
+    justify-content: row;
+}
+
 #content {
     width: 70%;
     height: 65%;
