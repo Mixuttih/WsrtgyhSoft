@@ -38,11 +38,13 @@ h1 {
 #content {
     width: 70%;
     height: 100%;
+    margin-left: 5px;
 }
 
 #social {
     width: 30%;
     height: 100%;
+    margin-left: 5px;
     border-style: none none none solid;
 }
 
