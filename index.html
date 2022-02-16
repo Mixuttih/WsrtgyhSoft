@@ -22,11 +22,11 @@
     <div id="wrapper">
         <div id="body">
             <div id="nav">
-                <p><a href="index.php?page=home.php">Home</a></p>
-                <p><a href="index.php?page=about.php">About us</a></p>
-                <p><a href="index.php?page=past.php">Past projects</a></p>
-                <p><a href="index.php?page=current.php">Current projects</a></p>
-                <p><a href="index.php?page=contact.php">Contact</a></p>
+                <p><a href="index.html">Home</a></p>
+                <p><a href="about.html">About us</a></p>
+                <p><a href="pastprojects.html">Past projects</a></p>
+                <p><a href="currentprojects.html">Current projects</a></p>
+                <p><a href="contact.html">Contact</a></p>
             </div>
 
             <div id="header">
@@ -35,30 +35,7 @@
 
             <div id="wrapper2">
                 <div id="content">
-                <?php
-$mypage = $_GET['mypage'];
-switch($mypage)
-{
-case "about":
-    @include("about.php");
-    break;
-
-case "past":
-    @include("past.php");
-    break;
-
-case "current":
-    @include("current.php");
-    break;
-
-case "contact":
-    @include("contact.php");
-    break;
-
-default:
-    @include("home.php");
-}
-?>
+                  Tässä on sisältöä
                 </div>
 
                 <div id="social">
