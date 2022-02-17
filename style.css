@@ -39,7 +39,7 @@ body {
 #body {
     width: 75%;
     height: 100%;
-    background: rgba(255, 255, 255, 0.800);
+    background: rgba(255, 255, 255, 0.750);
     border: 3px solid black;
     border-radius: 10px;
 }
@@ -49,6 +49,7 @@ body {
     height: auto;
     display: flex;
     justify-content: space-around;
+    background: rgba(255, 255, 255, 0.800);
 }
 
 #header {
@@ -64,7 +65,7 @@ body {
     height: 70%;
     display: flex;
     border-style: none none solid none;
-
+    background: rgba(255, 255, 255, 0.900);
 }
 
 #content {
