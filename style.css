@@ -6,6 +6,10 @@ h1 {
 h2 {
     font-size: 24px;
     font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 .p1 {
