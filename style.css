@@ -4,7 +4,7 @@ h1 {
 
 body {
     background: rgb(255,255,255);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(88,9,121,1) 50%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(131, 47, 167) 50%, rgba(255,255,255,1) 100%);
 }
 
 #wrapper {
