@@ -27,6 +27,7 @@ h2 {
 body {
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(131, 47, 167) 50%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
 }
 
 #wrapper {
@@ -48,9 +49,9 @@ body {
     width: 100%;
     height: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: contain;
     background: rgba(255, 255, 255, 0.800);
-    object-fit: contain;
+    
 }
 
 #header {
