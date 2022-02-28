@@ -42,6 +42,8 @@ body {
     height: 100%;
     background: rgba(255, 255, 255, 0.750);
     border: 3px solid black;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
     border-radius: 10px;
 }
 
