@@ -24,6 +24,8 @@ h2 {
     font-family: "Lucida Console", "Courier New", monospace;
   }
 
+@media screen and (min-width: 600px) {
+
 body {
     background: rgb(255,255,255);
     background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(131, 47, 167) 50%, rgba(255,255,255,1) 100%);
@@ -99,4 +101,5 @@ body {
     height: 5%;
     display: flex;
     justify-content: center;
+}
 }
