@@ -30,6 +30,13 @@ h2 {
         background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgb(131, 47, 167) 50%, rgba(255,255,255,1) 100%);
         background-repeat: repeat-y;
     }
+
+    #body {
+        width: 99%;
+        height: 100%;
+        border: 1px solid black;
+        background: rgba(255, 255, 255, 0.750);
+    }
 }
 
 @media screen and (min-width: 1500px) {
