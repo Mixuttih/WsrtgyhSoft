@@ -30,10 +30,6 @@ body {
     background-repeat: repeat-y;
 }
 
-a.hover {
-    background: rgba(221, 0, 210, 0.75);
-}
-
 #wrapper {
     width: 100%;
     height: 90vh;
@@ -61,6 +57,10 @@ a.hover {
     border: none;
     background: rgba(255, 255, 255, 0.800);
     
+}
+
+#nav img:hover {
+    opacity: .5;
 }
 
 #header {
