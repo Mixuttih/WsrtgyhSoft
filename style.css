@@ -40,7 +40,8 @@ h2 {
 
     #nav {
         display: flex;
-        justify-content: center;
+        justify-content: column;
+        align-items: center;
     }
 }
 
