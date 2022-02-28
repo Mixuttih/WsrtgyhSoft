@@ -56,10 +56,10 @@ body {
     border-top-right-radius: 10px;
     border: none;
     background: rgba(255, 255, 255, 0.800);
-    transition: all 1s ease;
 }
 
 #nav img:hover {
+    transition: all 1s ease;
     opacity: .5;
 }
 
