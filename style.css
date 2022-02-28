@@ -30,6 +30,10 @@ body {
     background-repeat: repeat-y;
 }
 
+a.hover {
+    background-color: rgba(221, 0, 210, 0.75);
+}
+
 #wrapper {
     width: 100%;
     height: 90vh;
