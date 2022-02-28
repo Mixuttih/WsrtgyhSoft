@@ -39,11 +39,7 @@ h2 {
         background: rgba(255, 255, 255, 0.750);
     }
 
-    #nav {
-        display: flex;
-        justify-content: column;
-        
-    }
+    
 }
 
  /*DESKTOP CSS*/ 
