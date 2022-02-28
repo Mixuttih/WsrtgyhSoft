@@ -24,7 +24,7 @@ h2 {
     font-family: "Lucida Console", "Courier New", monospace;
   }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1500px) {
 
 body {
     background: rgb(255,255,255);
