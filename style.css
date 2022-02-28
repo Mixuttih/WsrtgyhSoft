@@ -24,6 +24,7 @@ h2 {
     font-family: "Lucida Console", "Courier New", monospace;
   }
 
+ /*MOBILE CSS*/ 
 @media screen and (max-width: 1500px) {
     body {
         background: rgb(255,255,255);
@@ -45,6 +46,7 @@ h2 {
     }
 }
 
+ /*DESKTOP CSS*/ 
 @media screen and (min-width: 1500px) {
     body {
         background: rgb(255,255,255);
