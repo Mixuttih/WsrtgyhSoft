@@ -31,7 +31,7 @@ body {
 }
 
 a.hover {
-    background-color: rgba(221, 0, 210, 0.75);
+    background: rgba(221, 0, 210, 0.75);
 }
 
 #wrapper {
